@@ -34,7 +34,7 @@ import * as fs from "fs";
 import "colors";
 import * as path from "path";
 import { builtInHelpCommand } from "../Scripts/builtInHelpCommand.js";
-import { FMS } from "fero-ms";
+import * as FMS from "fero-ms";
 
 interface HelpCommandStyle extends Discord.MessageEmbedOptions {
 	slashCommand: boolean;
